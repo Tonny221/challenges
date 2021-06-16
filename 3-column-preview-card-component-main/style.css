@@ -11,5 +11,62 @@ body{
     background-color: rgb(242, 242, 242);
     height: 100%;
     width: 100%;
+    
+    font-family: 'Lexend Deca', sans-serif;
 }
 
+section{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+}
+
+.content{
+    display: flex;
+    width: 70vw;
+    border-radius: 2rem;
+}
+
+.content div{
+    padding: 3em;
+}
+
+.content img{
+    margin-bottom: 1rem;
+}
+
+.content h2{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+
+    margin-bottom: 1em;
+}
+
+.content p{
+    font-size: 15px;
+    margin-bottom: 6rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.content a{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    
+    border-radius: 2.25rem;
+    padding: 1rem;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
