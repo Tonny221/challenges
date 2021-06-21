@@ -12,6 +12,6 @@ body{
     height: 100vh;
     
     
-    background-color:#fff;
+    background-color: hsl(185, 75%, 39%);
     background-image: url(./images/bg-pattern-top.svg);
 }
