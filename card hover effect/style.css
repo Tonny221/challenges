@@ -79,3 +79,35 @@ img{
     transform: translateY(13.2rem);
     text-align: center;
 }
+
+.card_title{
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+    margin-bottom: 0.5rem;
+}
+
+.card_price{
+    display: inline-block;
+    font-size: var(--h2-font-size);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.card_description{
+    font-size: var(--small-font-size);
+    text-align: initial;
+    margin-bottom: 1.25rem;
+    opacity: 0;
+}
+
+.card_button{
+    display: block;
+    width: max-content;
+    padding: 1.125rem 2rem;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: 0.2s;
+    opacity: 0;
+}
