@@ -68,9 +68,7 @@
 }
 
 /*Base*/
-*,
-*::before,
-*::after{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -187,12 +185,12 @@ input{
     position: relative;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .nav_menu{
         position: fixed;
         background-color: var(--body-color);
-        top: -100%;
-        right: 0;
+        top: 0;
+        right: -100%;
         width: 70%;
         height: 100%;
         box-shadow: -1px 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
@@ -224,4 +222,10 @@ input{
     font-size: 1.5rem;
     color: var(--title-color);
     cursor: pointer;
+}
+
+/*Show menu*/
+
+.show-menu{
+    right: 0;
 }
