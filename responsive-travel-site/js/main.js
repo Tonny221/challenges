@@ -40,3 +40,17 @@ function scrollHeader(){
 }
 
 window;addEventListener('scroll', scrollHeader);
+
+//SWIPER DISCOVER
+
+var swiper = new Swiper(".discover_container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    spaceBetween: 20,
+    coverflowEffect: {
+      rotate: 0,
+    },
+  });

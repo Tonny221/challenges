@@ -403,3 +403,40 @@ input{
 .about_img-two:hover{
     transform: var(--img-scale);
 }
+
+/*DISCOVER*/
+
+.discover_card{
+    position: relative;
+    width: 200px;
+    overflow: var(--img-hidden);
+}
+
+.discover_data{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+}
+
+.discover_title,
+.discover_description{
+    color: #fff;
+}
+
+.discover_title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.discover_description{
+    display: block;
+    font-size: var(--smaller-font-size);
+}
+
+.discover_img{
+    transition: var(--img-transition);
+}
+
+.discover_img:hover{
+    transform: var(--img-scale);
+}
