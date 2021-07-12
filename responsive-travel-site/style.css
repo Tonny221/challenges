@@ -518,3 +518,15 @@ input{
 .video_button-icon{
     font-size: 1.2rem;
 }
+
+/*PLACES*/
+
+.places_card,
+.place_img{
+    height: 230px;
+}
+
+.places_container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+}
