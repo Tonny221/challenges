@@ -494,3 +494,12 @@ input{
 }
 
 /*VIDEO*/
+
+.video_container{
+    padding-bottom: 1rem;
+}
+
+.video_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-50);
+}
