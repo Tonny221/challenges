@@ -592,3 +592,9 @@ input{
 .places_card:hover .place_img{
     transform: var(--img-scale);
 }
+
+/*SUBSCRIBE*/
+
+.subscribe_bg{
+    
+}
