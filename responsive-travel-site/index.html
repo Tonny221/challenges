@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header" id="header">
         <!--Todo conteúdo está dentro da tag Nav pois assim fica mais simples de aplicar o css já que o mesmo serve de elemento pai para todo o resto do conteúdo-->
@@ -33,7 +35,7 @@
 
                 <i class="ri-close-line nav_close" id="nav-close"></i>
             </div>
-            
+
             <div class="nav_toggle" id="nav-toggle">
                 <i class="ri-function-line"></i>
             </div>
@@ -85,8 +87,9 @@
             <div class="about_container container grid">
                 <div class="about_data">
                     <h2 class="section_title about_title">More information <br> About the beaches</h2>
-                    <p class="about_description">You can find the most beautiful and pleasant places at the best 
-                    prices with special discounts, you choose the place we will guide you all the way to wait, get your place now.</p>
+                    <p class="about_description">You can find the most beautiful and pleasant places at the best
+                        prices with special discounts, you choose the place we will guide you all the way to wait, get
+                        your place now.</p>
                     <a href="#" class="button">Reserve a place</a>
                 </div>
 
@@ -146,24 +149,24 @@
         <section class="experience section">
             <h2 class="section_title">With Our Experience <br> We Will Serve You</h2>
             <div class="experience_container container grid">
-                
+
                 <div class="experience_content grid">
-                    
+
                     <div class="experience_data">
                         <h2 class="experience_number">20</h2>
                         <span class="experience_description">Year <br> Experience</span>
                     </div>
-                    
+
                     <div class="experience_data">
                         <h2 class="experience_number">75</h2>
                         <span class="experience_description">Complete <br> Tours</span>
                     </div>
-                    
+
                     <div class="experience_data">
                         <h2 class="experience_number">650+</h2>
                         <span class="experience_description">Tourist <br> Destination</span>
                     </div>
-                
+
                 </div>
 
                 <div class="experience_img grid">
@@ -178,7 +181,21 @@
         </section>
         <!--VIDEO-->
         <section class="video">
+            <h2 class="section_title">Video Tour</h2>
 
+            <div class="video_container container">
+                <p class="video_description">Find out more with our video of the most beautiful and pleasant places for you and your family.</p>
+
+                <div class="video_content">
+                    <video id="video-file">
+                        <source src="./video/video.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video_button" id="video-button">
+                        <i class="ri-play-line video_button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
         </section>
         <!--PLACES-->
         <section class="places section">
@@ -201,4 +218,5 @@
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
