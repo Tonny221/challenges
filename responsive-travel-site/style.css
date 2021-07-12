@@ -461,3 +461,34 @@ input{
     font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-0-50);
 }
+
+.experience_description{
+    font-size: var(--small-font-size);
+}
+
+.experience_img{
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.experience_overlay:nth-child(1){
+    width: 263px;
+    margin-right: 2rem;
+}
+
+.experience_overlay:nth-child(2){
+    width: 120px;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+}
+
+.experience_img-one,
+.experience_img-two{
+    transition: var(--img-transition);
+}
+
+.experience_img-one:hover,
+.experience_img-two:hover{
+    transform: var(--img-scale);
+}
