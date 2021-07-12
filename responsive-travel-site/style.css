@@ -322,7 +322,7 @@ input{
 .button{
     display: inline-block;
     background-color: var(--first-color);
-    color: #fff;
+    color: var(--white-color);
     padding: 1rem 2rem;
     font-weight: var(--font-semi-bold);
     transition: 0.3s;
@@ -420,7 +420,7 @@ input{
 
 .discover_title,
 .discover_description{
-    color: #fff;
+    color: var(--white-color);
 }
 
 .discover_title{
@@ -538,7 +538,7 @@ input{
 
 .places_content,
 .places_title{
-    color: #fff;
+    color: var(--white-color);
 }
 
 .places_content{
@@ -602,7 +602,7 @@ input{
 
 .subscribe_title,
 .subscribe_description{
-    color: #fff;
+    color: var(--white-color);
 }
 
 .subscribe_description{
@@ -713,4 +713,27 @@ input{
 
 .footer_terms-link:hover{
     color: var(--text-color);
+}
+
+/*SCROLL UP*/
+
+.scroll_up{
+    position: fixed;
+    right: 1rem;
+    bottom: 5rem;
+    background-color: var(--first-color);
+    padding: 0.5rem;
+    display: flex;
+    opacity: 0.9;
+    z-index: var(--z-tooltip);
+    transition: 0.4s;
+}
+
+.scrollup_icon{
+    color: var(--white-color);
+}
+
+.scroll_up:hover{
+    background-color: var(--first-color-alt);
+    opacity: 1;
 }
