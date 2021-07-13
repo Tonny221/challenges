@@ -151,3 +151,35 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+//SCROLL REVEAL
+
+const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2800,
+    // reset: true,
+})
+
+
+sr.reveal(`.home_data, .home_social-link, .home_info,
+           .discover_container,
+           .experience_data, .experience_overlay,
+           .places_card,
+           .sponsor_content,
+           .footer_data, .footer_rights`,{
+    origin: 'top',
+    interval: 100,
+})
+
+sr.reveal(`.about_data, 
+           .video_description,
+           .subscribe_description`,{
+    origin: 'left',
+})
+
+sr.reveal(`.about_img-overlay, 
+           .video_content,
+           .subscribe_form`,{
+    origin: 'right',
+    interval: 100,
+})
