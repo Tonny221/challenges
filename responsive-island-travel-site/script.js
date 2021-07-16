@@ -30,3 +30,17 @@ const btnCloseVideo = document.getElementById('popup-close')
 btnCloseVideo.addEventListener('click', () => {
     islandPopup.classList.remove('show-popup')
 })
+
+//SWIPER
+
+let swiper = new Swiper(".mySwiper", {
+    spaceBetween: 0,
+    slidesPerView: 0,
+});
+let swiper2 = new Swiper(".mySwiper2", {
+    effect: 'fade',
+    loop: true,
+    thumbs: {
+      swiper: swiper,
+    },
+});
