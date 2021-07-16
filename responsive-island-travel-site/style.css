@@ -81,3 +81,13 @@ img{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
+
+/*HEADER*/
+
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+}
