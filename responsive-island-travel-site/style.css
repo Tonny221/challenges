@@ -223,3 +223,29 @@ img{
     font-size: 1.8rem;
     color: var(--first-color);
 }
+
+/*Pop Up*/
+
+.islands_popup{
+    /*display: none;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--first-color-lighter);
+    padding: 1rem 0.75rem;
+    border-radius: 1rem;
+}
+
+.islands_popup-close{
+    position: absolute;
+    top: -0.75rem;
+    left: -0.75rem;
+    display: inline-flex;
+    padding: 0.35rem;
+    background-color: var(--first-color);
+    color: var(--first-color-lighter);
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
