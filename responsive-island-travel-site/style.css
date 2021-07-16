@@ -282,3 +282,8 @@ img{
     align-items: center;
     column-gap: 1rem;
 }
+
+.swiper-slide-thumb-active{
+    width: 45px;
+    height: 45px;
+}
